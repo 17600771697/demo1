@@ -1,0 +1,532 @@
+html,body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { 
+	margin:0;
+	padding:0; 
+}
+a{
+	text-decoration:none;
+}
+ul,ol,li{
+	list-style: none;
+}
+img{
+	border:0;display:block;
+}
+body{
+	font-family:"微软雅黑";
+}
+b,strong{
+	font-weight:100;
+}
+i,em{
+	font-style:normal;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:16px;
+	font-weight:100;
+}
+.clearfix:after{
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility: hidden;
+}
+body{
+	background:#f2f2f2;
+}
+				/*头部引用的*/
+.nav-L-none-ul{
+	display: block !important;
+}
+				/*main*/
+/*banner*/
+#index-banner{
+	width: 100%;
+    margin: 0 auto;
+    clear: both;
+    background: #e7ddd4;
+}
+.index-banner{
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+}
+.banner-big li{
+	height: 420px;
+    width: 100%;
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    border: 0;
+    margin: 0;
+    position: absolute;
+}
+.banner-smal{
+	position: absolute;
+    z-index: 60;
+    bottom: 10px;
+    left: 46%;
+}
+.banner-smal li{
+    float: left;
+    background: #333;
+    opacity: .4;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: 3px solid rgba(255,255,255,0.7);
+}
+.banner-smal li.active{
+	background: #fa3778;
+    opacity: 1;
+}	
+/*滚动新闻*/	
+#Roll-new{
+	width: 100%;
+    overflow: hidden;
+    background:#ececec;
+}	
+.Roll-new{
+	font-size: 12px;
+    width: 1200px;
+    height: 28px;
+    margin: 0 auto;
+}
+.Roll-new-icon{
+	width: 22px;
+    height: 28px;
+    float: left;
+    background: url(../images/megaphone.png) no-repeat;
+    background-position: 2px 5px;
+}
+.Roll-new-icon-world{
+	color: #fa3778;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: right;
+    height: 28px;
+    float: left;
+}
+.Roll-new-content{
+	width: 270px;
+    height: 28px;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+}
+.Roll-new-content ul{
+	width: 100%;
+    height: 168px;
+    position: relative;
+    top:0px;
+}
+.Roll-new-content ul li{
+	width: 100%;
+    height: 28px;
+    line-height: 28px;
+    color:#999;
+}
+
+/*每日必看*/
+#Daily-must-see{
+	width: 1200px;
+    margin: 0 auto;
+}
+.Daily-must-see{
+	font-size: 12px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 2px;
+}
+.Daily-must-see-head{
+	width: 1200px;
+    height: 26px;
+    margin-top: 10px;
+    margin-bottom: 26px;
+    background: url(../images/must_check.png) no-repeat;
+}	
+.Daily-must-see-container .container-odd{
+	float: left;
+	width: 592px;
+    overflow: hidden;
+}
+.container-item-odd{
+	width: 592px;
+    height: 260px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 16px;
+    border: 1px solid #eee;
+}
+.container-item-odd img{
+	width: 360px;
+    height: 100%;
+    display: block;
+    float: left;
+}
+.container-item-info{
+	width: 230px;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.container-item-info p{
+	text-align: center;
+}
+.container-item-info-title{
+	margin-top: 60px;
+    font-size: 22px;
+    color: #e93b78;
+}
+.container-item-info-subtit{
+	color: #5a5a5a;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.container-item-info-date{
+	color: #5a5a5a;
+    font-size: 13px;
+    margin-top: 3px;
+}
+.container-item-info-date-btn{
+	display: block;
+    width: 108px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 62px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #e93b78;
+    letter-spacing: 1px;
+}
+/*限时特卖*/
+.Flash-Sale-head{
+	width: 1200px;
+    height: 26px;
+    margin: 0 auto;
+    background: url(../images/limitted_offer.png) no-repeat;
+    margin-bottom: 10px;
+    margin-top: 34px;
+}
+.Flash-Sale-grab{
+	text-align: center;
+	font-size: 20px;
+}
+.Flash-Sale-cantent{
+	font-size: 12px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.Flash-Sale-item{
+	width: 1200px;
+    height: 360px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.Flash-Sale-item-L{
+	width: 640px;
+    height: 360px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.Flash-Sale-item-L i{
+	width: 68px;
+    height: 68px;
+    left: 16px;
+    top: 12px;
+    padding: 23px 20px 0 0;
+    text-align: center;
+    display: block;
+    position: absolute;
+    background: url(../images/discount_circle.png) no-repeat;
+    z-index: 1;
+}
+.Flash-Sale-item-L i b{
+	font-family: "Arial";
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    margin-right: 0px;
+    font-style: italic;
+    width: 68px;
+    display: block;
+}
+.Flash-Sale-item-L i b span{
+	font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+.Flash-Sale-item-R{
+	width: 480px;
+    height: 280px;
+    margin: 40px 40px 0 0;
+    float: right;
+    position: relative;
+}
+.Flash-Sale-item-R-down{
+	height: 24px;
+    overflow: hidden;
+    padding: 0 10px;
+    background-color: #414141;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    font-size: 13px;
+    display: inline-block;
+}
+.brief-introduction{
+	width: 100%;
+    height: 215px;
+    overflow: hidden;
+    position: relative;
+}
+.brief-introduction-intro{
+	width: 100%;
+    height: 120px;
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    color: #222;
+}
+.brief-introduction-intro i{
+	font-size: 18px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    color: #d9d9d9;
+}
+.brief-introduction-title{
+	width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 44px;
+    left: 0;
+    font-size: 13px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #666;
+}
+.brief-introduction-title b{
+	color: #ee9c23;
+}
+.brief-introduction-price{
+	width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.brief-introduction-price-cur{
+	font-weight: 600;
+    color: #fc3f83;
+    float: left;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+.brief-introduction-price-cur-sig{
+	font-size: 20px;
+    display: block;
+    float: left;
+    margin-top: -4px;
+}
+.brief-introduction-price-cur-num{
+	font-size: 32px;
+    font-family: "Arial";
+    line-height: 30px;
+}
+.brief-introduction-price-old{
+	color: #999;
+    float: left;
+    margin-top: 9px;
+    margin-left: 7px;
+    position: relative;
+    line-height: 23px;
+    height: 23px;
+    font-size: 13px;
+}
+.brief-introduction-price-old-num{
+	text-decoration: line-through;
+}
+.Flash-Sale-item-Open-grab{
+	width: 480px;
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+}
+.Flash-Sale-item-Open-grab-sold{
+	width: 100px;
+    height: 13px;
+    line-height: 13px;
+    margin-top: 19px;
+    float: left;
+    color: #999;
+}
+.Flash-Sale-item-Open-grab-qiang{
+	width: 92px;
+    height: 32px;
+    display: block;
+    float: right;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #e93b78;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.Flash-Sale-cantent .Flash-Sale-item:first-child{
+	margin-top: 26px;
+}
+.Flash-Sale-cantent .Flash-Sale-item:last-child{
+	margin-bottom: 0;
+}
+/*查看更多特卖*/
+#View-more{
+	text-align: center;
+    padding-top: 20px;
+}
+#View-more a{
+	display: block;
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #fff;
+    margin: 0 auto;
+    background: #000;
+}
+#View-more a span{
+	font-size: 21px;
+    position: relative;
+    top:2px;
+}
+/*销售排行榜*/
+.Ranking-List-outsource{
+	width:1200px;
+	margin:0 auto;
+	padding-bottom:30px;
+}
+.Ranking-List{
+	font-size:12px;
+	width:1200px;
+	overflow: hidden;
+}
+.Ranking-List-con-cantent{
+	padding-bottom:30px;
+}
+.Ranking-List-head{
+	width: 1200px;
+    height: 26px;
+    background: url(../images/title_ranking.png) no-repeat;
+    margin: 0 auto;
+    margin-top: 38px;
+    margin-bottom: 26px;
+}
+.Ranking-List-con-cantent-L{
+	width: 382px;
+    border-top: 2px solid #fc3f83;
+    background-color: #fff;
+    float: left;
+    margin-right: 27px;
+}
+.Ranking-L-hd{
+	width: 100%;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 22px;
+    color: #111;
+}
+.Ranking-L-cantent,.Ranking-L-cantent2,.Ranking-L-cantent3{
+	width: 362px;
+    height: 80px;
+    padding: 10px;
+    position: relative;
+    border-top: 1px solid #eee;
+}
+.Ranking-L-cantent-icon{
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -3px;
+    top: -3px;
+    background: url(../images/ranking_1.png) no-repeat;
+}
+.Ranking-L-cantent-icon:nth-child(2){
+	background:url(../images/ranking_2.png) no-repeat;
+}
+.Ranking-L-cantent-icon:last-child{
+	background:url(../images/ranking_3.png) no-repeat;
+}
+.Ranking-L-cantent img{
+	max-width: 80px;
+    max-height: 80px;
+    float: left;
+}
+.Ranking-L-cantent-info{
+	width: 272px;
+    height: 80px;
+    float: right;
+}
+.Ranking-L-cantent-name{
+	width: 100%;
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    margin-top: 13px;
+    font-size: 13px;
+}
+.Ranking-L-cantent-name a{
+	color:#222;
+}
+.Ranking-L-cantent-price{
+	width: 100%;
+    height: 20px;
+    margin-top: 7px;
+}
+.Ranking-L-cantent-price-cur{
+	float: left;
+    color: #fc3f83;
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+}
+.Ranking-L-cantent-price-old{
+	float: left;
+    margin-left: 5px;
+    color: #999;
+    height: 21px;
+    line-height: 21px;
+    position: relative;
+}
+.Ranking-L-cantent-price-old span{
+	text-decoration: line-through;
+}
+.Ranking-L-cantent-price-sold{
+	float: right;
+    line-height: 20px;
+    color: #999;
+    font-size: 11.3px;
+    margin-right: 10px;
+}
+.Ranking-List-con-cantent-R{
+	margin-right:0;
+}
+			/*尾部引用的*/

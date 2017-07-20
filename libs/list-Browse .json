@@ -1,0 +1,72 @@
+﻿[
+	{
+		"id":"1",
+		"img":"images/00001.jpg",
+		"img2":"images/00001-1.jpg",
+		"img3":"images/00001-2.jpg",
+		"img4":"images/00001-3.jpg",
+		"count":"4",
+		"intro":"精华面膜系列 金丝燕窝深层保湿面膜",
+		"title":"SNP",
+		"Number":"10片",		
+		"num":"68",
+		"old":"￥170",
+		"soldnum":"35"
+	},
+	{
+		"id":"2",
+		"img":"images/00002.jpg",
+		"img2":"images/00001-1.jpg",
+		"img3":"images/00001-2.jpg",
+		"img4":"images/00001-3.jpg",
+		"count":"5.6",
+		"intro":"舒妍修护系列   舒妍多效洁肤液  ",
+		"title":"贝德玛",
+		"Number":"500毫升",		
+		"num":"￥128.0",
+		"old":"228.0",
+		"soldnum":"18"
+	},
+	{
+		"id":"3",
+		"img":"images/00003.jpg",
+		"img2":"images/00001-1.jpg",
+		"img3":"images/00001-2.jpg",
+		"img4":"images/00001-3.jpg",
+		"count":"5.4",
+		"intro":"舒护活泉喷雾 ",
+		"title":"雅漾",
+		"Number":"300毫升",		
+		"num":"￥99.0",
+		"old":"185.0",
+		"soldnum":"19"
+	},
+	{
+		"id":"4",
+		"img":"images/00004.jpg",
+		"img2":"images/00001-1.jpg",
+		"img3":"images/00001-2.jpg",
+		"img4":"images/00001-3.jpg",
+		"count":"3.9",
+		"intro":"氨基酸针剂水库面膜 ",
+		"title":"丽得姿",
+		"Number":"10片",		
+		"num":"￥49.0",
+		"old":"127.0",
+		"soldnum":"9"
+	},
+	{
+		"id":"5",
+		"img":"images/00005.jpg",
+		"img2":"images/00001-1.jpg",
+		"img3":"images/00001-2.jpg",
+		"img4":"images/00001-3.jpg",
+		"count":"6.3",
+		"intro":"精华面膜系列 金丝燕窝深层保湿面膜",
+		"title":"SK-II",
+		"Number":"250毫升",		
+		"num":"￥855.0",
+		"old":"1365.0",
+		"soldnum":"2"
+	}
+]
